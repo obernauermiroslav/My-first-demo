@@ -1,9 +1,181 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style2.css">
 
-<img src="sheldon.jpeg" width="700px" height="550px">
+    <h1>My <span style="color:brown;font-size: 40px;">very first </span> Demo<br> about things I know<br>created by: </h1>
+    <h1 id="demo" onclick="myFunction3()">Myself.</h1>
+
+      <script>
+      function myFunction3() { 
+      document.getElementById("demo").innerHTML = "Miroslav Obernauer";
+      }
+      </script>
+
+</head>
+
+<body>
+
+<table>
+<tr>
+    <th>It's mine</th>
+    <th>No it's mine</th>
+</tr>
+<tr>
+    <td>I said mine</td>
+    <td>Ok</td>
+</tr>
+<tr>
+    <td>It's ours</td>
+    <td>I give up</td>
+</tr>
+</table>
+
+    
+<img id="gif" src="200.gif" height="150px" width="150px" onclick="myFunction1" >
+<input id="button234" type = "button" value = "Click Me" onclick = "moveRight();" />
+
+    <script type = "text/javascript">
+            <!--
+               var imgObj = null;
+               
+               function init() {
+                  imgObj = document.getElementById('gif');
+                  imgObj.style.position= 'relative'; 
+                  imgObj.style.left = '0px'; 
+               }
+               function moveRight() {
+                  imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+               }
+               
+               window.onload = init;
+            //-->
+    </script>
 
 
 
 
-</html>
+
+<script>
+function light(sw){
+var pic;
+if (sw == 0) {
+    pic = "pic_bulboff.gif"
+} else {
+    pic = "pic_bulbon.gif"
+}
+document.getElementById('myImage').src = pic;
+}
+</script>
+
+
+<hr>
+<br>
+
+<img id="myImage"   src="pic_bulboff.gif">
+
+<p>
+  <button type="button" onclick="light(1)">Let there be light</button><br><br>
+  <button type="button" onclick="light(0)">Mana depleted</button>
+</p>
+
+<hr>
+
+<img id="funny" src="FUNNY.jpg" width="230px" height="160px">
+
+
+<br>
+
+<fieldset>
+    <legend>Login</legend>
+    <form action="/action_page.php">
+ <label for="username">Username:</label>
+ <input type="text" id="username" name="username" value="random"  size="10">
+ <br>
+ <label for="password">Password:</label>
+ <input type="password" id="passowrd" size="10">
+ <br>
+ <label for="email">E-mail:</label>
+ <input type="email" id="email" size="13">
+ <br>
+ <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+ <label for="vehicle1"> I have a bike</label>
+ <br>
+  <input type="checkbox" id="car1" name="car1" value="car">
+  <label for="car1">I have a car</label>
+  <br>
+ <input type="submit" value="Submit">
+ <input type="reset" value="reset">
+  </form>
+</fieldset>
+
+
+<br>
+
+<form>
+  <label for="My favorite food">Favorite food:</label>
+    <select id="favoritefood" name="favorite food">
+      <option value="Candies">Candies</option>
+      <option value="Chocolate">Chocolate</option>
+      <option value="More Candies">More Candies</option>
+      <option value="Chocolate frogs">Chocolate frogs</option>
+    </select>
+  <input type="submit" value="Submit"></form>
+</form>
+
+<hr>
+
+<input type="button" id="button123" onclick="alert('Let me guess ...You expect Hello World...right?')" value="Click me!">
+
+
+<div class="container">
+    <div class="jumbotron">
+      <h2 id="my" onclick="myFunction2()">Let's have Fun </h2>
+      <button id="btn1" data-panel="panel1" onclick="location.href='index2.html'">My list</button>
+      <button id="btn2" data-panel="panel2" onclick="location.href='index3.html'">Stages in developer's work</button>
+     
+    </div>
+</div>
+
+<script>
+function myFunction2(){
+    document.getElementById("my").style.color = "yellow";
+    document.getElementById("my").style.border = "10px solid red ";
+    document.getElementById("my").style.background = "purple";
+    document.getElementById("my").style.marginRight = "1150px";
+    document.getElementById("my").setAttribute("align", "center");
+}
+</script>
+
+<br>
+<p1><a href="https://www.greenfoxacademy.cz/?utm_source=adwords&utm_medium=banner&utm_campaign=dusicyon&utm_content=IT_general&gclid=Cj0KCQjwidSWBhDdARIsAIoTVb08lx9_xmGWtRTPEDPd43ysWtJfogAvMZomjh0iMxUGjJlLc3DJUY0aAgjhEALw_wcB">For more info about our group, check this page</a></p1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+        <p2 id="par2">Thank you for your attention ...<br>and if you have some questions...well...please don't :)</p2>    
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
