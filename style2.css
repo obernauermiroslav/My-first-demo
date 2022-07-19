@@ -1,0 +1,71 @@
+table,th,td {
+    border: 3px solid red
+}
+
+h1{
+    background-color: yellowgreen;
+    margin-right: 1000px;
+    padding: 10px;
+    
+}
+
+table {
+    
+    border-collapse: collapse;
+  }
+
+  #myImage{
+      border: 10px dotted green;
+  }
+
+  #vehicle1{
+      margin-left: 0;
+  }
+  #car1{
+      margin-left: 0;
+  }
+
+  #button123{
+    border-radius: 100px ;
+    border: 5px solid ;
+    width: 75px;
+    height: 75px;
+}
+
+fieldset{
+margin-right: 1250px;
+
+}
+
+#gif{
+border-style: dashed ;
+float:right;
+margin-right: 990px;
+margin-top: 60px;
+}
+
+#funny{
+float: right;
+margin-right: 900px;
+padding-top: 55px;
+
+}
+
+#button234{
+float: right;
+margin-right: 1040px;
+margin-top: 10px;
+}
+
+#my{
+    display: flex;
+}
+
+
+#par2{
+    font-size: 45px;
+    text-align: center;
+    float: left;
+    margin-left: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
